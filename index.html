@@ -13,12 +13,13 @@
         <div class="anim">
             <h3>მომწერე შენი დაბადების თარიღი და გეტყვი რამდენი წლის ხარ</h3>
             <div class="animform">
-                <input type="text" placeholder="დღე" id="day">
-                <input type="text" placeholder="თვე" id="month">
                 <input type="text" placeholder="წელი" id="year">
-                <button class="sub">გამოთვლა</button>
+                <button class="sub" onclick="agecalc()">გამოთვლა</button>
             </div>
+            <h3 id="res" style="display: none;color: green; padding: 15px 0;"></h3>
+
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
