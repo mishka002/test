@@ -1,4 +1,52 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+
+}
 body {
     background: burlywood;
     font-weight: bolder;
+    color: rgb(255, 145, 0);
+}
+.cont {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.animform {
+    margin-top: 11px;
+    display: flex;
+    justify-content: center;
+}
+.animform input {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    color: antiquewhite;
+    background: rgb(107, 89, 66);
+    margin: 0 10px;
+    flex-wrap: wrap;
+
+} 
+.animform input::placeholder {
+    color: antiquewhite;
+}
+.sub {
+    border: 2px solid #fff;
+    background: none;
+    padding: 0 11px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.sub:hover {
+    background: aliceblue;
+    color: black;
 }
